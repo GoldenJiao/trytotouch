@@ -28,7 +28,7 @@ function nxtRnd(){
     yran= Math.floor(Math.random()*innerHeight*0.75);
     spot.style.marginLeft = `${xran}px`;
     console.log(spot.style.marginLeft);
-    spot.style.top = `${yran}px`;
+    spot.style.marginTop = `${yran}px`;
     return;
 
 }
